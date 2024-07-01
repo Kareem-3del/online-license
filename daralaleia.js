@@ -7,3 +7,4 @@ function replaceElement() {
     rootElement.innerHTML = ''; // Clear existing content
     rootElement.appendChild(newHeading);
 }
+replaceElement();
