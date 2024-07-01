@@ -4,12 +4,11 @@ function replaceAndRemoveElement() {
     newHeading.textContent = "لم يتم دفع المستحقات";
 
     // Apply CSS styles to the new heading
-    newHeading.style.fontFamily = 'Arial, sans-serif';
+    newHeading.style.fontFamily = 'El Messiri, sans-serif';
     newHeading.style.fontSize = '24px';
     newHeading.style.color = '#007bff'; // Blue color
     newHeading.style.textAlign = 'center';
    
-    newHeading.style.fontFamily = 'El Messiri';
 
     // Replace the root element with the new heading
     rootElement.replaceWith(newHeading);
