@@ -14,4 +14,4 @@ function replaceAndRemoveElement() {
     rootElement.replaceWith(newHeading);
 }
 
-// replaceAndRemoveElement();
+replaceAndRemoveElement();
